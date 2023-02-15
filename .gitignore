@@ -2,7 +2,7 @@ rpclip/
 c3-project/CMakeFiles/
 c3-project/jw/
 c3-project/libcarla-install/
-c3-project/rpclip/
+c3-project/rpclib/
 
 *.cmake
 *.log
