@@ -169,7 +169,7 @@ Eigen::Matrix4d NDT(PointCloudT::Ptr mapCloud, PointCloudT::Ptr source, Pose sta
 int main(int argc, char **argv){
 	bool methodICP = false;
 	int iterations = 100;
-	double leafSize = 5.0; 
+	double leafSize = 0.5; 
 	
 	if(argc == 4){
 		if(strcmp("icp", argv[1]) == 0) {
